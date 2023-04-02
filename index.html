@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Photo Gallery</title>
+	<style>
+		/* Style the header and navbar */
+		header {
+			background-color: #1B1E3A;
+			color: #fff;
+			padding: 10px;
+			display: flex;
+			align-items: center;
+		}
+
+		nav {
+			margin-left: auto;
+		}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+		}
+
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+			position: relative;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			display: block;
+		}
+
+		nav a:hover {
+			background-color: #555;
+		}
+
+		nav ul ul {
+			display: none;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			background-color: #333;
+			padding: 0;
+		}
+
+		nav ul ul li {
+			display: block;
+			width: 200px;
+		}
+
+		nav ul ul a {
+			padding: 10px;
+			display: block;
+		}
+
+		nav ul li:hover > ul {
+			display: block;
+		}
+
+		/* Style the photo gallery */
+		.container {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 10px;
+		}
+
+		.item img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		/* Style the footer */
+		footer {
+			background-color: #1B1E3A;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<br>
+		<img src="path/to/logo.jpg" alt="PIXEL-PROSE-PLAY">
+		<nav>
+			<ul>
+				<li><a href="#">PAGES</a>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="http://127.0.0.1:5500/contact%20us%20.html">CONTACT US</a></li>
+						<li><a href="http://127.0.0.1:5500/about%20us%20.html">ABOUT US</a></li>
+						<li><a href="http://127.0.0.1:5500/privacy%20plicy.html">PRIVACY POLICY</a></li>
+						<li><a href="http://127.0.0.1:5500/faq.html">FAQ</a></li>
+					</ul>
+				</li>
+				<li><a href="#">EBOOKS</a>
+					<ul>
+						<li><a href="">Nature</a></li>
+						<li><a href="#">Cities</a></li>
+						<li><a href="#">Animals</a></li>
+					</ul>
+				</li>
+				<li><a href="#">NFT</a>
+					<ul>
+						<li><a href="http://127.0.0.1:5500/collectable.html">collectable</a></li>
+						<li><a href="http://127.0.0.1:5500/photography.html">Photography</a></li>
+						<li><a href="http://127.0.0.1:5500/music.html">Music</a></li>
+						<li><a href="http://127.0.0.1:5500/sports.html">Sports</a></li>
+						<li><a href="http://127.0.0.1:5500/gaming.html">Gaming</a></li>
+						<li><a href="http://127.0.0.1:5500/viritual.html">Virtual Real Estate</a></li>
+						<li><a href="http://127.0.0.1:5500/Fashion.html">Fashion</a></li>
+						<li><a href="http://127.0.0.1:5500/Memes.html">Memes</a></li>
+						<li><a href="http://127.0.0.1:5500/utility.html">Utility</a></li>
+					</ul>
+				</li>
+				<li><a href="#">PHOTOS</a>
+					<ul>
+						<li><a href="http://127.0.0.1:5500/nature.html">Nature</a></li>
+						<li><a href="#">Cities</a></li>
+						<li><a href="http://127.0.0.1:5500/portrait.html">Portrait</a></li>
+						<li><a href="http://127.0.0.1:5500/animals.html">Animals</a></li>
+					</ul>
+				</li>
+		
+
+		</nav>
+	</header>
+
+	<main>
+		<h1 style="text-align: center; font-weight: bold;  color: rgb(129, 11, 11);">PHOTOS</h1>
+		<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: rgb(19, 11, 129);">Looking for stunning visuals to inspire you? Look no further than our gallery of breathtaking photos! From majestic landscapes to adorable animals, our collection is sure to leave you in awe. Whether you're seeking inspiration for your next project or simply want to enjoy some stunning images, our gallery has something for everyone. So sit back, relax, and let our photos take you on a journey through the beauty of our world.</p>
+
+		<div class="container">
+			<div class="item"><img src="PHOTOS/abst01.jpg"></div>
+			<div class="item"><img src="PHOTOS/abst02.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat01.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat02.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat03.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat04.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat05.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat06.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat07.jpg"></div>
+		</div>
+		<h1 style="text-align: center; font-weight: bold; color: rgb(129, 11, 11);">NFTs</h1>
+		<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: rgb(19, 11, 129);">Looking for a unique way to express your creativity and passion for digital art? Look no further than our NFT gallery! Our curated collection of non-fungible tokens (NFTs) offers a glimpse into the world of one-of-a-kind, authenticated digital art pieces that are perfect for any collector or enthusiast. From stunning abstract designs to adorable feline-themed pieces, our NFT gallery has something for everyone. Explore our collection today and discover the beauty and uniqueness of NFT art.</p>
+
+		<div class="container">
+			<div class="item"><img src="PHOTOS/abst01.jpg"></div>
+			<div class="item"><img src="PHOTOS/abst02.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat01.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat02.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat03.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat04.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat05.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat06.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat07.jpg"></div>
+		</div>
+
+		<h1 style="text-align: center; font-weight: bold;  color: rgb(129, 11, 11);">EBOOKS</h1>
+		<p style="text-align: center; font-weight: bold; font-size: 1.2em; color: rgb(19, 11, 129);">Introducing our extensive collection of eBooks - your gateway to a world of knowledge and entertainment! Explore our diverse range of titles, from bestsellers to niche genres, all available at your fingertips. Immerse yourself in captivating stories, insightful memoirs, informative guides, and more. With our easy-to-use platform, you can browse, purchase, and download eBooks in just a few clicks. Whether you're looking for inspiration, education, or simply some escapism, our eBook gallery has something for everyone. Start exploring today and expand your literary horizons!</p>
+
+		<div class="container">
+			<div class="item"><img src="PHOTOS/abst01.jpg"></div>
+			<div class="item"><img src="PHOTOS/abst02.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat01.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat02.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat03.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat04.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat05.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat06.jpg"></div>
+			<div class="item"><img src="PHOTOS/cat07.jpg"></div>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 My Photo Gallery</p>
+	</footer>
+</body>
+</html>
